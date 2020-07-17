@@ -3420,6 +3420,13 @@
                 DOM.bip32path.val("m/0'/0");
                 DOM.hardenedAddresses.prop('checked', false);
             },
+        },
+        {
+            name: "CSPN Mobile Wallet Change",
+            onSelect: function() {
+                DOM.bip32path.val("m/0'/1");
+                DOM.hardenedAddresses.prop('checked', false);
+            },
         }
     ]
 
